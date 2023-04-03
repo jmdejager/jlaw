@@ -1,0 +1,9 @@
+:host {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  app-movie {
+    flex: 0 0 200px;
+  }
+}

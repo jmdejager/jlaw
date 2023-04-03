@@ -1,0 +1,8 @@
+<app-movie
+  *ngFor="let movie of service.movies$ | async"
+  [title]="movie.title.toString()"
+  [description]="movie.description.toString()"
+  [image]="movie.image.toString()"
+>
+
+</app-movie>

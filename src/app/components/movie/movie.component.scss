@@ -1,0 +1,13 @@
+:host {
+  display: flex;
+  flex-direction: column;
+
+  .image {
+    height: 180px;
+
+    img {
+      height: 100%;
+      aspect-ratio: 1;
+    }
+  }
+}
